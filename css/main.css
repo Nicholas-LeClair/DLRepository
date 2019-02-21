@@ -1,87 +1,61 @@
-.nav ul {
+body {
+    background-color: #151515;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    color: #151515;
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #ffffff;
 }
 
-.nav li {
-    color: #151515;
-    float: left;
+.wlcm {
+    margin-top: 50px;
+}
+
+.rqr {
+    margin-top: 50px;
+}
+
+.rqr a {
+    color: #ffffff;
+}
+
+.wlcm h1,h2,h3,h4 {
+    text-align: center;
+}
+
+.nav {
+    border: none;
+    background-color: #ffffff;
 }
 
 .nav li a {
-    color: #151515;
-    display: block;
-    text-align: center;
-    padding: 20px 50px;
-    text-decoration: none;
+    color: #151515 !important;
 }
 
 .nav li a:hover {
-    background-color: #b5b5b5;
+    border: none;
 }
 
 .nav .active {
+    color: #ffffff !important;
+    background-color: #151515 !important;
+    border: none;
+}
+
+.cards {
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.card {
+    padding: 0px;
+    margin-bottom: 10px;
+    color: #151515;
+}
+
+.dld {
+    margin-bottom: 5px;
     background-color: #151515;
     color: #ffffff;
 }
 
-body {
-    margin: 0;
-    color: #ffffff;
-    background-color: #151515;
-}
-
-div {
-    margin: 50px;
-}
-
-h1, h2, h3, h4 {
-    padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-}
-
-.dld div {
-    border-bottom: 2px solid #ffffff
-}
-
-.dld ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 20px;
-    padding: 20px;
-    overflow: hidden;
-}
-
-.dld ul a {
-    background-color: #ffffff;
-    padding: 15px;
-    text-decoration: none;
+.card-text a {
     color: #151515;
-    font-family: "Montserrat", sans-serif;
-}
-
-.dld li {
-    float: center;
-    padding: 25px;
-}
-
-.dld li a {
-    display: block;
-    text-align: center;
-    padding: 20px 50px;
-    float: center;
-    text-decoration: none;
-    color: #151515;
-    background-color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-}
-
-#sk ul li{
-    font-family: "Montserrat", sans-serif;
 }
